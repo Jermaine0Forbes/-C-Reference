@@ -7,9 +7,30 @@
 - how to link a view to a controller
 - [where to create DBContext][create-dbc]
 
+## Migrations
+- [how to create a migration][create-mig]
+
+[create-mig]:#how-to-create-a-migration
 [create-dbc]:#where-to-create-dbcontext
 [add-control]:#how-to-add-a-controller
 [home]:#aspnet-mvc
+
+### how to create a migration
+<details>
+<summary>
+View Content
+</summary>
+
+In the package manager console type this
+
+```
+enable-migrations
+add-migration <insert db name>
+update-database
+```
+</details>
+
+[go back :house:][home]
 
 
 ### where to create DBContext
