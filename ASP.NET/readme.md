@@ -36,6 +36,7 @@ View Content
 3. In the bottom right corner the information should display. Then you should scroll to up to 
 find the connection string . It would something like this 
 
+Column | Value
 -|-
 Connection String | Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
 Default Database Location | C:\Users\jaxth\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\mssqllocaldb
